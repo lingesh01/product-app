@@ -1,0 +1,30 @@
+.draft-container {
+	margin-top: 10px;
+	width: 20rem;
+	height: 600px;
+	background-color: whitesmoke;
+}
+
+.draft-title {
+	padding: 0.4rem;
+	background-color: #04aa6d;
+	text-align: center;
+	margin-left: 3.9rem;
+	width: 10rem;
+	border-radius: 10px;
+}
+
+.hero-icon {
+	position: absolute;
+	top: 15%;
+	right: 2%;
+	font-size: 1.9rem;
+	color: #000;
+	cursor: pointer;
+}
+
+.hero-icon:hover {
+	color: #04aa6d;
+	transition: all 0.5s;
+	transform: scale(1.4);
+}

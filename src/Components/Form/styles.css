@@ -1,0 +1,70 @@
+.body-container {
+	height: 100vh;
+	background-image: linear-gradient(to right, #b9dfff85, #5837d09e);
+	background-position: right;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container {
+	background: linear-gradient(
+		30deg,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0.4)
+	);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.form-container h3 {
+	color: darkblue;
+	text-align: center;
+	padding: 8px;
+}
+
+input[type="email"],
+input[type="password"] {
+	padding: 8px;
+	width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+}
+
+.btn {
+	margin-top: 2rem;
+	border: none;
+	background-color: #5837d0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding: 0.7rem 2rem;
+	color: #ffffffff;
+	border-radius: 2rem;
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	transform: translate(3px, 3px);
+	transition: 0.5s ease-out;
+	background-color: #bccef8;
+	color: #5837d0;
+}
+
+p {
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+p:hover {
+	cursor: pointer;
+	color: red;
+}
